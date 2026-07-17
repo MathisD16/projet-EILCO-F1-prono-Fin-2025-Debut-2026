@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    padding-top: 100px; 
+    min-height: 100vh;
+}
+
+a { text-decoration: none; }
+ul { list-style: none; }
+
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+header {
+    position: fixed;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 0 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(44, 44, 44);
+    padding: 17px 20px;
+    border-radius: 0.8rem;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+}
+.logo span { color: #780000; }
+
+.navbar {
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+
+.nav-link {
+    font-size: 0.88rem;
+    color: rgb(165, 164, 164);
+    transition: 0.3s;
+}
+
+.nav-link:hover { color: white; }
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
+
+.nav-icons i {
+    font-size: 20px;
+    color: rgb(0, 0, 0);          
+    background: rgb(255, 255, 255); 
+    border-radius: 50%;           
+    transition: 0.3s ease;
+    display: flex;                
+    justify-content: center;
+    align-items: center;
+    width: 36px; 
+    height: 36px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+
+
+.nav-icons i:hover {
+    background: #780000;
+    color: white;
+    cursor: pointer;
+    transform: translateY(-2px); 
+}
+
+.main-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #222;
+}
+
+.personal-section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    margin-bottom: 30px;
+    text-align: center;
+
+    border: 2px solid #780000; 
+}
+
+.personal-section h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+
+.ranking-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    gap: 30px;
+    align-items: start;
+}
+
+.rank-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.rank-card h2 {
+    margin-bottom: 20px;
+    color: #780000;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+}
+
+th {
+    background: #222;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-weight: 500;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    color: #555;
+}
+
+
+.is-me {
+    background-color: #fff3f3;
+    font-weight: 700;
+    color: #780000;
+}
+
+
+.medal { font-size: 1.2rem; margin-right: 5px; }
+
+
+.cta-container {
+    text-align: center;
+    margin: 40px 0 60px 0;
+}
+
+.btn-action {
+    display: inline-block;
+    background-color: #780000;
+    color: white;
+    padding: 15px 40px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(120, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.btn-action:hover {
+    background-color: #5a0000;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(120, 0, 0, 0.4);
+    color: white;
+}
+
+.driver-number {
+    font-family: sans-serif; 
+    font-weight: 900;
+    font-style: italic;
+    color: #e10600; 
+    font-size: 1.1em;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: inline-block;
+    min-width: 25px; 
+}
+
+.eilco-footer {
+    background: #2c2c2c; 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto; 
+    width: 100%;
+    border-top: 4px solid #780000; 
+}
+
+.eilco-footer a {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.eilco-footer a:hover {
+    color: #780000;
+}

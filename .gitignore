@@ -1,0 +1,13 @@
+# Config locale contenant les identifiants de connexion à la BDD
+includes/database.php
+
+# Fichiers système macOS
+.DS_Store
+__MACOSX/
+
+# Fichiers d'éditeur
+.vscode/
+.idea/
+
+# Logs éventuels
+*.log
