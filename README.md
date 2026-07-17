@@ -1,6 +1,6 @@
 # F1 Prono
 
-Site de pronostics Formule 1 en Html/CSS/Java et PHP/MySQL, développé pour tourner sous MAMP.
+Site de pronostics Formule 1 en PHP/MySQL, développé pour tourner sous MAMP.
 
 ## Prérequis
 
